@@ -10,9 +10,9 @@
 <body>
     <table>
         <tr>
-            <th>ID
+            <th>Codigo
             </th>
-            <th>Item
+            <th>Elemento
             </th>
         </tr>
         <?php
