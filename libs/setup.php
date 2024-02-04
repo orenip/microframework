@@ -14,11 +14,17 @@ $config->set('viewsFolder', 'views/');
 //$config->set('dbuser', 'root');
 //$config->set('dbpass', '');
 
+// $config->set('dbhost', 'containers-us-west-136.railway.app:6879');
+// $config->set('dbname', 'railway');
+// $config->set('dbuser', 'root');
+// $config->set('dbpass', 'W1EYqlKJ1Sv9q75o0XlN');
 
-$config->set('dbhost', 'containers-us-west-136.railway.app:6879');
+//NUEVA conexion Railway:
+//mysql://root:CdGBdAd4FfAfd52eaD4cFCdhea5fhHc-@viaduct.proxy.rlwy.net:49853/railway
+$config->set('dbhost', 'viaduct.proxy.rlwy.net:49853');
 $config->set('dbname', 'railway');
 $config->set('dbuser', 'root');
-$config->set('dbpass', 'W1EYqlKJ1Sv9q75o0XlN');
+$config->set('dbpass', 'CdGBdAd4FfAfd52eaD4cFCdhea5fhHc-');
 
 //mysql://root:MReAICGr5qPiqK6JHE9C@containers-us-west-179.railway.app:5845/railway
 ?>
