@@ -24,7 +24,7 @@ class ItemModel
     }
     public function setCodigo($codigo)
     {
-        return $this->codigo = $codigo;
+        return @$this->codigo = $codigo;
     }
 
     public function getItem()
@@ -33,7 +33,7 @@ class ItemModel
     }
     public function setItem($item)
     {
-        return $this->item = $item;
+        return @$this->item = $item;
     }
 
     // Método para obtener todos los registros de la tabla ITEMS
